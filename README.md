@@ -11,16 +11,20 @@ permessi.
 :one: **PACCHETTI DA INSTALLARE**
 
 I pacchetti da installare sono; 
-*********
+
 :small_orange_diamond: ssh:
+ 
  >apt-get install openssh-server.
  
 :small_orange_diamond: apache2 :  
+ 
  > apt-get install apache2
  
 Eseguendo questo comando verrà installato il web-server Apache.
+
 :small_orange_diamond: FTP: 
- >apt-get install vsftpd
+
+>apt-get install vsftpd
  
 Questo comando permettera l'istallazione di un client FTP e di usufruire dei comandi FTP da remoto.
 
@@ -92,7 +96,7 @@ CERO IL FILE html
 
 Per ***verificare*** ese i comandi sono stati eseguiti correttamente basta utilizzare il comando `ls` all interno delle cìvarie cartelle e vedere se sono presenti i file/le cartelle create. 
 
-**ABILITO I SITI**
+:four: **ABILITO I SITI**
 
 >cd /etc/apache2/sites-available
 
@@ -122,7 +126,7 @@ il ServerName, nel mio caso;
 
 >ServerName sitoa-122.virtual.marconi
 
-:four: **CREAZIONE UTENTI**
+:five: **CREAZIONE UTENTI**
 
 Per creare un utente che anno accesso alla cartells del sitoX si utilizza il comando :
 
