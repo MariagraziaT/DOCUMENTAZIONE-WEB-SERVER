@@ -10,8 +10,8 @@ permessi.
 :one: **PACCHETTI DA INSTALLARE**
 
 I pacchetti da installare sono; 
-
-*ssh:
+*********
+ssh:
  >apt-get install openssh-server.
  
 -apache2 :  
