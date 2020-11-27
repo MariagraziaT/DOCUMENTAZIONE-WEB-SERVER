@@ -4,16 +4,16 @@
 **Passaggi da seguire** 
 
 la prima operazione che eseguo e il login (adminuser e password:adminuser)
-Successivamente abilito tramite il comando sudo -i ; la funzione amministratore, che mi da tutti i 
+Successivamente abilito tramite il comando *sudo -i* ; la funzione amministratore, che mi da tutti i 
 permessi.
 
-1.**PACCHETTI DA INSTALLARE**
+:one:**PACCHETTI DA INSTALLARE**
 Ipacchetti da installare sono; 
 apache2 comandi:
     
-   > sudo apt-get install apache2
+   > apt-get install apache2
 
-##2.**CONFIGURAZIONE IP**
+:two:**CONFIGURAZIONE IP**
 Modifico la mia macchina(CONFIGURAZIONE DHCP4), aggiungendo un  ip statico, con il comando;
      nano /etc/netplan/00-installer-config.yaml 
 apro il file di configurazione e lo modifico a dovere.
@@ -26,7 +26,7 @@ se non funziona utilizzo il comando :
      >sudo netplan apply
 Un ulteriore metodo di verifica è inserire nel URL di un qualsiasi broswere  l'indirizo ip della macchina, di default dovrebbe caicarsi la pagina index di apache2
    
-#3.**CREAZIONE SITI**
+:three:**CREAZIONE SITI**
 
      cd /etc/apache2/sites-available
      sudo cp 000-default.conf 001-default.conf
@@ -49,7 +49,7 @@ sudo mkdir log  //CREO CATELLA LOG
 cd /var/www/SitoA/web/ //NELLA CARTELLLA 
 sudo nano HTML1.html  //CERO IL FILE RELATIV
 
-##4.**CREAZIONE UTENTI**
+:four:**CREAZIONE UTENTI**
 Adesso per gestire l'accesso da parte di un utente alla cartella sel sito utilizzo il comando:
      
      sudo useradd -s /bin/bash -d /var/www/SitoA -m usersitoX
