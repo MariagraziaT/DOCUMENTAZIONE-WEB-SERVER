@@ -5,7 +5,7 @@
 
 la prima operazione che eseguo e il login (adminuser e password:adminuser), bisogna utilizzare un utente di tipo root. 
 
-Successivamente abilito tramite il comando *sudo -i* ; la funzione amministratore, che mi da tutti i 
+Successivamente abilito tramite il comando `sudo -i` ; la funzione amministratore, che mi da tutti i 
 permessi.
 
 :one: **PACCHETTI DA INSTALLARE**
@@ -61,7 +61,7 @@ Verifichare se le modifiche applicate funzionino con il comando:
 
 > netpaln try
          
-Per ***verificare** che i comandi siano applicati in modo giusto, quindi che la configurazione è andata a buon fine, digito il comando:
+Per ***verificare*** che i comandi siano applicati in modo giusto, quindi che la configurazione è andata a buon fine, digito il comando:
 
 >ip address
 
