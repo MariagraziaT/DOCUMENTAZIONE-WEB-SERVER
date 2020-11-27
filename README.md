@@ -8,14 +8,17 @@ Successivamente abilito tramite il comando *sudo -i* ; la funzione amministrator
 permessi.
 
 :one: **PACCHETTI DA INSTALLARE**
+
 I pacchetti da installare sono; 
-ssh:
-   >apt-get install openssh-server.
-apache2 :  
-   > apt-get install apache2
+-ssh:
+ >apt-get install openssh-server.
+-apache2 :  
+ > apt-get install apache2
+ 
 Eseguendo questo comando verrà installato il web-server Apache.
-FTP: 
->apt-get install vsftpd
+-FTP: 
+ >apt-get install vsftpd
+ 
 Questo comando permettera l'istallazione di un client FTP e di usufruire dei comandi FTP da remoto.
 
 
@@ -23,10 +26,13 @@ Un metodo di ***verifica*** è inserire nel URL di un qualsiasi broswere l'indir
 
 :two: **CONFIGURAZIONE DHCP4**
 Modifico la mia macchina, aggiungendo un  ip statico, con il comando;
+
      >nano /etc/netplan/00-installer-config.yaml 
+     
 apro il file di configurazione e lo modifico a dovere;
 
 Nel mio caso ad esempio;
+
 >network:
 >  renderer: networkd
 >  ethernets:
@@ -63,7 +69,7 @@ CREO LA CARTELLA WEB ALL'INTERNO METTERO IL FILE.HTML CHE CONTERRA L'HTML DEL SI
 ENTRO NELLA CARTELLLA WEB
    >sudo nano HTML1.html  
 CERO IL FILE html
-Per ***verificare*** ese i comandi sono stati eseguiti correttamente basta utilizzare il comando *ls* all interno delle cìvarie cartelle e vedere se sono presenti i file/le cartelle create, 
+Per ***verificare*** ese i comandi sono stati eseguiti correttamente basta utilizzare il comando `ls` all interno delle cìvarie cartelle e vedere se sono presenti i file/le cartelle create, 
 
 **ABILITO I SITI**
      >cd /etc/apache2/sites-available
