@@ -1,7 +1,14 @@
-##Come creare un WEB-SERVER  utilizzando una macchina Linux (in questo caso una macchina virtuale di tipo Ubuntu 20-04 64 Bit).
+##Come creare un WEB-SERVER  utilizzando una macchina Linux (in questo caso una macchina virtuale di 
+
+tipo Ubuntu 20-04 64 Bit).
+
 ##PROCESSO DA ATTUARE 
+
 la prima operazione che eseguo e il login (adminuser e password:adminuser)
-Successivamente abilito tramite il comando sudo -i ; la funzione amministratore, che mi da tutti i permessi.
+
+Successivamente abilito tramite il comando sudo -i ; la funzione amministratore, che mi da tutti i 
+
+permessi.
 ##1.PACCHETTI DA INSTALLARE
 Ipacchetti da installare sono; 
 apache2 comandi:
