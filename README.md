@@ -142,3 +142,7 @@ per ***verificare*** se l'utente e stato creato, accedo alla macchina con nuovo 
 
 
 --------------------------------------------------
+Metodo di insatllazione di samba https://wiki.ubuntu-it.org/Server/Samba#Installazione
+:six: **samba**
+
+
