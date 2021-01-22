@@ -104,7 +104,7 @@ CERO IL FILE html
 
 Per ***verificare*** ese i comandi sono stati eseguiti correttamente basta utilizzare il comando `ls` all interno delle cìvarie cartelle e vedere se sono presenti i file/le cartelle create. 
 
-**ABILITO I SITI**
+## **ABILITO I SITI**
 
 >cd /etc/apache2/sites-available
 
@@ -134,7 +134,7 @@ il ServerName, nel mio caso;
 
 >ServerName sitoa-122.virtual.marconi
 
- **CREAZIONE UTENTI**
+ ## **CREAZIONE UTENTI**
 
 Per creare un utente che anno accesso alla cartells del sitoX si utilizza il comando :
 
@@ -154,14 +154,17 @@ per ***verificare*** se l'utente e stato creato, accedo alla macchina con nuovo 
 
 >https://wiki.ubuntu-it.org/Server/Samba#Installazione
 
-**samba**
+**SAMBA**
 Samba è una suit di strumenti, che permette tramite rti sia windows che linux la condivisione 
 
-1. installazione
 
-2. configurazione
+:diamond_shape_with_a_dot_inside: [cos'è samba?](#**SAMBA**) <br>
+:diamond_shape_with_a_dot_inside: [installazione](#**INSTALLAZIONE**) <br>
+:diamond_shape_with_a_dot_inside: [configurazione](#**CONFIGURAZIONE**) <br>
+:diamond_shape_with_a_dot_inside: [come gestire la condivisione](#**GESTIONE-DELLA-CONDIVISIONE**)<br>
 
-3. come gestire la condivisione
-
-
+## **SAMBA**
+## **INSTALLAZIONE**
+## **CONFIGURAZIONE**
+## **GESTIONE DELLA CONDIVISIONE**
 
