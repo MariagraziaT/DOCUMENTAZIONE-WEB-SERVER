@@ -1,7 +1,7 @@
 ***DOOCUMENTAZIONE WEB-SERVER***
 >Come creare un _WEB-SERVER_  utilizzando una macchina Linux (in questo caso una macchina virtuale di tipo Ubuntu 20-04 64 Bit).
 
-**Passaggi da seguire** 
+**Passaggi da seguire** 	:clipboard: 
 
 :one: [Log-in](#**login**)	:unlock: <br>
 :two: [Pacchetti da installare](#**PACCHETTI-DA-INSTALLARE**) :package: <br>
@@ -154,16 +154,16 @@ per ***verificare*** se l'utente e stato creato, accedo alla macchina con nuovo 
 
 >https://wiki.ubuntu-it.org/Server/Samba#Installazione
 
-**SAMBA**<br>
-:diamond_shape_with_a_dot_inside: [cos'è samba?](#**SAMBA**) <br>
-:diamond_shape_with_a_dot_inside: [installazione](#**INSTALLAZIONE**) <br>
-:diamond_shape_with_a_dot_inside: [configurazione](#**CONFIGURAZIONE**) <br>
-:diamond_shape_with_a_dot_inside: [come gestire la condivisione](#**GESTIONE-DELLA-CONDIVISIONE**)<br>
+***SAMBA***<br>
+:diamond_shape_with_a_dot_inside: [cos'è samba?](#**SAMBA**) :question:<br>
+:diamond_shape_with_a_dot_inside: [installazione](#**INSTALLAZIONE**) 	:package: <br>
+:diamond_shape_with_a_dot_inside: [configurazione](#**CONFIGURAZIONE**) :gear:<br>
+:diamond_shape_with_a_dot_inside: [come gestire la condivisione](#**GESTIONE-DELLA-CONDIVISIONE**) :computer:<br>
 
 ## **SAMBA**<br>
 Samba è una suit di strumenti, che permette tramite rti sia windows che linux la condivisione 
 
-## **INSTALLAZIONE**
+## **INSTALLAZIONE** 
 Assicurarsi prima di installare il pacchetto di samba, che sì sia fatto l'aggiornamento della propria macchina, tramite il comando `sudo apt-get update`.<br>
 Procediamo poi con l'installazione del pacchetto
 
