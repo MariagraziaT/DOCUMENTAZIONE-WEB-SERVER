@@ -3,12 +3,12 @@
 
 **Passaggi da seguire** 
 
-:one: [Log-in](**login**) <br>
-:two: [Pacchetti da installare](#**PACCHETTI-DA-INSTALLARE**) <br>
-:three:[Configurazione DHCP](#**CONFIGURAZIONE-DHCP4**)<br>
-:four:[Creazione sito](#**CREAZIONE-SITO**) <br>
-:five:[Abilitazione sito](#**ABILITO-I-SITI**)<br>
-:six: [Creazione nuovi utenti](#**CREAZIONE-UTENTI**)<br>
+:one: [Log-in](#**login**)	:unlock: <br>
+:two: [Pacchetti da installare](#**PACCHETTI-DA-INSTALLARE**) :package: <br>
+:three:[Configurazione DHCP](#**CONFIGURAZIONE-DHCP4**) 	:gear:<br>
+:four:[Creazione sito](#**CREAZIONE-SITO**) :hammer_and_wrench:  <br>
+:five:[Abilitazione sito](#**ABILITO-I-SITI**):heavy_check_mark:<br>
+:six: [Creazione nuovi utenti](#**CREAZIONE-UTENTI**) :busts_in_silhouette:<br>
 
 
 la prima operazione che eseguo e il ##**login** (adminuser e password:adminuser), bisogna utilizzare un utente di tipo root. 
