@@ -154,17 +154,21 @@ per ***verificare*** se l'utente e stato creato, accedo alla macchina con nuovo 
 
 >https://wiki.ubuntu-it.org/Server/Samba#Installazione
 
-**SAMBA**
-Samba è una suit di strumenti, che permette tramite rti sia windows che linux la condivisione 
-
-
+**SAMBA**<br>
 :diamond_shape_with_a_dot_inside: [cos'è samba?](#**SAMBA**) <br>
 :diamond_shape_with_a_dot_inside: [installazione](#**INSTALLAZIONE**) <br>
 :diamond_shape_with_a_dot_inside: [configurazione](#**CONFIGURAZIONE**) <br>
 :diamond_shape_with_a_dot_inside: [come gestire la condivisione](#**GESTIONE-DELLA-CONDIVISIONE**)<br>
 
-## **SAMBA**
+## **SAMBA**<br>
+Samba è una suit di strumenti, che permette tramite rti sia windows che linux la condivisione 
+
 ## **INSTALLAZIONE**
+Assicurarsi prima di installare il pacchetto di samba, che sì sia fatto l'aggiornamento della propria macchina, tramite il comando `sudo apt-get update`.<br>
+Procediamo poi con l'installazione del pacchetto
+
+ >sudo apt-get install samba
 ## **CONFIGURAZIONE**
+
 ## **GESTIONE DELLA CONDIVISIONE**
 
