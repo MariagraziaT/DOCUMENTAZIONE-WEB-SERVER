@@ -3,12 +3,20 @@
 
 **Passaggi da seguire** 
 
-la prima operazione che eseguo e il login (adminuser e password:adminuser), bisogna utilizzare un utente di tipo root. 
+:one: [Log-in](**login**) <br>
+:two: [Pacchetti da installare](#**PACCHETTI-DA-INSTALLARE**) <br>
+:three:[Configurazione DHCP](#**CONFIGURAZIONE-DHCP4**)<br>
+:four:[Creazione sito](#**CREAZIONE-SITO**) <br>
+:five:[Abilitazione sito](#**ABILITO-I-SITI**)<br>
+:six: [Creazione nuovi utenti](#**CREAZIONE-UTENTI**)<br>
+
+
+la prima operazione che eseguo e il ##**login** (adminuser e password:adminuser), bisogna utilizzare un utente di tipo root. 
 
 Successivamente abilito tramite il comando `sudo -i` ; la funzione amministratore, che mi da tutti i 
 permessi.
 
-:one: **PACCHETTI DA INSTALLARE**
+## **PACCHETTI DA INSTALLARE**
 
 I pacchetti da installare sono; 
 
@@ -32,7 +40,7 @@ Questo comando permettera l'istallazione di un client FTP e di usufruire dei com
 Un metodo di ***verifica*** è inserire nel URL di un qualsiasi broswere l'indirizo ip della macchina, di default dovrebbe caicarsi la pagina index di apache2.
 
 
-:two: **CONFIGURAZIONE DHCP4**
+## **CONFIGURAZIONE DHCP4**
 
 Modifico la mia macchina, aggiungendo un  ip statico, con il comando;
 
@@ -67,7 +75,7 @@ Per ***verificare*** che i comandi siano applicati in modo giusto, quindi che la
 
 Che mi mostra l'IP.
  
-:three: **CREAZIONE SITO**
+## **CREAZIONE SITO**
 
 >cd /var/www/ 
 
@@ -96,7 +104,7 @@ CERO IL FILE html
 
 Per ***verificare*** ese i comandi sono stati eseguiti correttamente basta utilizzare il comando `ls` all interno delle cìvarie cartelle e vedere se sono presenti i file/le cartelle create. 
 
-:four: **ABILITO I SITI**
+**ABILITO I SITI**
 
 >cd /etc/apache2/sites-available
 
@@ -126,7 +134,7 @@ il ServerName, nel mio caso;
 
 >ServerName sitoa-122.virtual.marconi
 
-:five: **CREAZIONE UTENTI**
+ **CREAZIONE UTENTI**
 
 Per creare un utente che anno accesso alla cartells del sitoX si utilizza il comando :
 
@@ -146,7 +154,7 @@ per ***verificare*** se l'utente e stato creato, accedo alla macchina con nuovo 
 
 >https://wiki.ubuntu-it.org/Server/Samba#Installazione
 
-:six: **samba**
+**samba**
 Samba è una suit di strumenti, che permette tramite rti sia windows che linux la condivisione 
 
 1. installazione
