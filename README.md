@@ -142,7 +142,18 @@ per ***verificare*** se l'utente e stato creato, accedo alla macchina con nuovo 
 
 
 --------------------------------------------------
-Metodo di insatllazione di samba https://wiki.ubuntu-it.org/Server/Samba#Installazione
+
+
+>https://wiki.ubuntu-it.org/Server/Samba#Installazione
+
 :six: **samba**
+Samba è una suit di strumenti, che permette tramite rti sia windows che linux la condivisione 
+
+1. installazione
+
+2. configurazione
+
+3. come gestire la condivisione
+
 
 
